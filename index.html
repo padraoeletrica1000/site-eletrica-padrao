@@ -452,6 +452,7 @@ async function enviarFormulario() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({
+        _subject: 'Serviços da Elétrica Padrão',
         nome: nome,
         whatsapp: whatsapp,
         email: email,
